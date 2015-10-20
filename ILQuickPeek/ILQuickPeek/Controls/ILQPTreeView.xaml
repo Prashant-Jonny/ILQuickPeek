@@ -1,0 +1,20 @@
+﻿<UserControl x:Class="ILQuickPeek.Controls.ILQPTreeView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ILQuickPeek.Controls"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <UserControl.Resources>
+        <Image x:Key="AssemblyImage" Source="/Media/Treeview Icons/Library.png" />
+        <Image x:Key="TypeDeffFriendImage" Source="/Media/Treeview Icons/TypeDefinition-Friend.png" />
+        <Image x:Key="TypeDeffPrivateImage" Source="/Media/Treeview Icons/TypeDefinition-Private.png" />
+        <Image x:Key="TypeDeffProtectedImage" Source="/Media/Treeview Icons/TypeDefinition-Protected.png" />
+        <Image x:Key="TypeDeffSealedImage" Source="/Media/Treeview Icons/TypeDefinition-Sealed.png" />
+        <Image x:Key="TypeDeffImage" Source="/Media/Treeview Icons/TypeDefinition.png" />
+        <Image x:Key="NamespaceImage" Source="/Media/Treeview Icons/Namespace.png" />
+        <Image x:Key="ReferencesImage" Source="/Media/Treeview Icons/Reference.png" />
+    </UserControl.Resources>
+    <TreeView Name="NavigationTreeView" Grid.Row="1" Grid.Column="0" />
+</UserControl>
